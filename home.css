@@ -1,0 +1,535 @@
+#divmain
+{
+background-color: rgb(255, 255, 255);
+height: 100vh;
+
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#divheading
+{
+    background-color: rgb(0, 0, 0);
+    height: 17vh;
+   
+    background-size: cove;
+    background-repeat: n-repeat;
+    background-position:center;
+    
+}
+
+#divcontral
+{
+    display: flex;
+   
+    gap:5px;
+}
+#divmenu
+{
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 15%;
+    height:437vh;
+    margin-top: 0px;
+    
+
+}
+#divcont
+{
+    background-color: rgb(255, 252, 252);
+    width: 70%;
+    height: 100vh;
+    
+   
+
+
+}
+#divadd
+{
+    background-color: rgb(0, 0, 0, 0.1);
+    width: 25%;
+    height: 431vh;
+    margin-top: 50px;
+  
+}
+#p1
+{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: cursive;
+    justify-content: center;
+    padding: 30px;
+    
+}
+#ul1
+{
+    line-height: 40px;
+    margin-top: 160px;
+    padding: 20px;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(19, 18, 18);
+   
+}
+#cont1
+{
+    height: 90vh;
+    background-color: bisque;
+    background-image: url(./assets/back2.avif);
+    background-size: cover;
+    border-radius: 20px;
+    margin: 50px;
+    cursor: pointer;
+}
+.img
+{
+    width: 100%;
+    height: 40vh;
+    animation-name: slide;
+    animation-duration: 20s;
+    animation-delay: .10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    cursor: pointer;
+    }
+    @keyframes slide
+    {
+       0%{background-image: url(./assets/sld1.jpg);}
+       20%{background-image: url(./assets/sld2.jpg);}
+       40%{background-image: url(./assets/sld3.jpg);}
+       60%{background-image: url(./assets/sd4.jpg);}
+       80%{background-image: url(./assets/sld5.jpg);}
+       100%{background-image: url(./assets/sld6.jpg);}
+    }
+    .img1
+{
+    width:100%;
+    
+    animation-name: slide1;
+    animation-duration: 2s;
+    animation-delay: .0s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    cursor: pointer;
+    }
+    @keyframes slide1
+    {
+       0%{background-color: aqua;}
+       20%{background-color: rgb(255, 0, 140);}
+       40%{background-color: rgb(255, 242, 0);}
+       60%{background-color: rgb(0, 255, 4);}
+       80%{background-color: rgb(236, 239, 239);}
+       100%{background-color: rgb(208, 0, 255);}
+    }
+    .img2
+{
+    width: 100%;
+    height: 40vh;
+    animation-name: slide2;
+    animation-duration: 10s;
+    animation-delay: .1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    cursor: pointer;
+    }
+    @keyframes slide2
+    {
+       0%{background-image: url(./assets/10.jpg);}
+       20%{background-image: url(./assets/11.jpg);}
+       40%{background-image: url(./assets/12.jpg);}
+       60%{background-image: url(./assets/13.jpg);}
+       80%{background-image: url(./assets/14.jpg);}
+       100%{background-image: url(./assets/sd4.jpg);}
+    }
+    #divcontainer2
+    {
+        display: flex;
+        margin-top: 50px;
+        gap: 50px;
+        margin: 10px;
+        
+    }
+    #cont2
+    {
+      height: 40vh;
+      width: 30%;
+      background-color: rgb(0, 0, 0, 0.1);
+      background-image: url(./assets/tsht2.jpg);
+      background-size: cover;
+      border-radius: 10%; 
+        box-shadow: 3px 3px 3px 2px black;
+        cursor: pointer;
+       
+    }
+    #cont3
+    {
+        height: 40vh;
+        width: 30%;
+        background-color: rgb(0, 0, 0, 0.1);
+        background-image: url(./assets/jeans2.jpg); 
+        background-size: cover; 
+        border-radius: 10%; 
+        box-shadow: 2px 3px 3px 3px black;
+        cursor: pointer;
+        
+    }
+    #cont4
+    {
+        height: 40vh;
+        width: 30%;
+        background-color: rgb(0, 0, 0, 0.1);  
+        border-radius: 10%; 
+        box-shadow: 3px 3px 3px 2px black;
+        background-image: url(./assets/sandle1);
+    }
+    #h22
+    {
+       
+        margin-top: 0px;
+        margin-left: 100px;
+    
+    }
+    #divcontainer3
+    {
+        background-color: rgb(255, 255, 255);
+        height: 50vh;
+        display: flex;
+        margin-top: 20px;
+        margin-top: 50px;
+        gap: 50px;
+       
+        
+
+    }
+    #cont5
+    {
+      height: 40vh;
+      width: 30%;
+      background-color: rgb(0, 0, 0, 0.1);
+      background-image: url(./assets/wallet1);
+      background-size: cover;
+      border-radius: 10%; 
+        box-shadow: 3px 3px 3px 2px black;
+        cursor: pointer;
+    }
+    #cont6
+    {
+        height: 40vh;
+        width: 30%;
+        background-color: rgb(0, 0, 0, 0.1);
+        background-image: url(./assets/JEZi.jpg); 
+        background-size: cover; 
+        border-radius: 10%; 
+        box-shadow: 2px 3px 3px 3px black;
+        background-position: center;
+        cursor: pointer;
+    }
+    #cont7
+    {
+        height: 40vh;
+        width: 30%;
+        background-color: rgb(0, 0, 0, 0.1);  
+        border-radius: 10%; 
+        box-shadow: 3px 3px 3px 2px black;
+        background-image: url(./assets/watch.jpg);
+        background-size: cover;
+        cursor: pointer;
+    }
+    .img3
+  {
+    width: 100%;
+    height: 40vh;
+    animation-name: slide3;
+    animation-duration: 15s;
+    animation-delay: .3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    
+    }
+    @keyframes slide3
+    {
+       0%{background-image: url(./assets/JEZi.jpg);}
+       20%{background-image: url(./assets/jezi\ yanga);}
+       40%{background-image: url(./assets/jezi\ azam )}
+       60%{background-image: url(./assets/jezi\ tz.jpg);}
+    }
+    #divcontainer4
+    {
+        background-color: rgb(0, 0, 0);
+        height: 70vh;
+        display: flex;
+        margin-top: 0px;
+        
+        gap: 50px;
+
+        background-size: cover;
+        
+    }
+  
+    #ul2
+    {
+        line-height: 40px;
+    margin-top: 30px;
+    padding: 20px;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(19, 18, 18);
+   
+    }
+    .li2
+    {
+        border-radius: 2%;
+       
+        line-height: 20px;
+        margin-top: 15px;
+        background-color: rgba(28, 121, 104, 0.892);
+        color: rgb(255, 255, 255);
+        padding: 20px;
+        
+    }
+    li:hover
+    {
+        opacity: 0.5;
+        cursor: pointer;
+        font-size: 25px;
+        font-family: cursive;
+        color: red;
+    }
+    img:hover
+    {
+        opacity: 0.9;
+    }
+   #divcontainer5
+   {
+ height: 158vh;
+ background-color: rgb(1, 1, 1);
+ padding-top: 50px;
+ padding-left: 150px;
+ padding-right: 50px;
+ padding-bottom: 10px;
+
+   }
+   img
+   {
+    
+    height: 60vh;
+    border-radius: 2%;
+   }
+   #img1
+   {
+    height: 85vh;
+    width: 100%;
+    margin-top: 10px;
+   }
+
+   #last
+   {
+    height: 25vh;
+    background-color: rgba(254, 251, 251, 0.1);
+    display: flex;
+   }
+   #last1
+   {
+    background-image: linear-gradient(to top, rgb(207, 55, 209), rgba(27, 182, 202, 0.81));
+  text-align: center;
+   }
+   #last2
+   {
+
+width: 40%;
+background-image: linear-gradient(to top, rgb(251, 250, 251), rgba(232, 204, 232, 0.573));
+   }
+   #last3
+   {
+    background-image: linear-gradient(to top, rgb(251, 250, 251), rgba(232, 204, 232, 0.573));
+width: 40%;
+   }
+   #h1a
+   {
+    color: white;
+    line-height: 50px;
+    text-shadow: 5px 5px 5px black;
+   }
+   #h1b
+   {
+    color: rgb(17, 32, 242);
+    line-height: 50px;
+    font-family: cursive;
+   }
+   #h1c
+   {
+    color: rgb(16, 17, 17);
+    line-height: 50px;
+    font-family: forte;
+   }
+
+   #ullast
+   {
+    padding-top: 30px;
+    list-style: none;
+    line-height: 30px;
+    font-family: simsun;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    display: flex;
+    gap: 20px;
+    font-size: large;
+    margin-left: 60px;
+   }
+   #ullast1
+   {
+    padding-top: 30px;
+    list-style: none;
+    line-height: 30px;
+    font-family: simsun;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    display: flex;
+   
+   padding: 20-x;
+    gap: 20px;
+    font-size: large;
+    margin-left: 200px;
+   }
+   #whatsapp
+   {
+    color: #47c702;
+    font-size: 50px;
+    font-weight: bolder;
+   }
+   #instagram
+   {
+    color: #810707 ;
+    font-size: 50px;
+    font-weight: bolder;
+   }
+   #tele
+   {
+    color:  #02acfb;
+    font-size: 50px;
+    font-weight: bolder;
+   }
+   
+   #facebook
+   {
+    color:  #0517d8;
+    font-size: 50px;
+    font-weight: bolder;
+   }
+   #phone
+   {
+    color:  #0a0b13;
+    font-size: 50px;
+    font-weight: bolder;
+   }
+   #footer
+   {
+    background-color: #0a0b13;
+    color: aliceblue;
+    height: 5vh;
+    padding-left: 500px;
+    padding-top: 10px;
+   }
+   a:link
+   {
+    caret-color: rgb(0, 0, 0);
+    text-decoration: none;
+   }
+   a:visited
+   {
+    color: rgb(0, 0, 0);
+   }
+   .img4
+{
+    width: 100%;
+    height: 40vh;
+    animation-name: slide4;
+    animation-duration: 5s;
+    animation-delay: .1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    cursor: pointer;
+    }
+    @keyframes slide4
+    {
+       0%{background-image: url(./assets/34.jpg);}
+       20%{background-image: url(./assets/38.jpg);}
+       40%{background-image: url(./assets/24.jpg);}
+       60%{background-image: url(./assets/46.jpg);}
+       80%{background-image: url(./assets/37.jpg);}
+       100%{background-image: url(./assets/40.jpg);}
+    }
+    .img5
+{
+    width: 100%;
+    height: 40vh;
+    animation-name: slide5;
+    animation-duration: 15s;
+    animation-delay: .1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    cursor: pointer;
+    }
+    @keyframes slide5
+    {
+       0%{background-image: url(./assets/22.jpg);}
+       20%{background-image: url(./assets/33.jpg);}
+       40%{background-image: url(./assets/44.jpg);}
+       60%{background-image: url(./assets/50.jpg);}
+       80%{background-image: url(./assets/25.jpg);}
+       100%{background-image: url(./assets/30.jpg);}
+    }
+    .img6
+{
+    width: 100%;
+    height: 40vh;
+    animation-name: slide6;
+    animation-duration: 10s;
+    animation-delay: .1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    cursor: pointer;
+    }
+    @keyframes slide6
+    {
+       0%{background-image: url(./assets/10.jpg);}
+       20%{background-image: url(./assets/11.jpg);}
+       40%{background-image: url(./assets/12.jpg);}
+       60%{background-image: url(./assets/13.jpg);}
+       80%{background-image: url(./assets/14.jpg);}
+       100%{background-image: url(./assets/sd4.jpg);}
+    }
+    

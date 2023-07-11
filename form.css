@@ -1,0 +1,28 @@
+form
+{
+    
+    background-image: linear-gradient(to top,rgb(22, 146, 223),rgb(233, 124, 208));
+    padding: 30px;
+    width: 70%;
+    margin-left: 70px;
+    line-height: 0px;
+    letter-spacing: 3px;
+    height: 70vh;
+    font-family: verdana;
+    font-size:;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    
+}
+input
+{
+    height: 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(255, 254, 255);
+
+}
+td
+{
+    padding: 10px;
+}
